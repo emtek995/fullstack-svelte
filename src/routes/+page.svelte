@@ -5,7 +5,7 @@
             <p class="py-6">Organize your life.</p>
             <div class="">
                 <a href="/app" class="btn btn-primary"> Login</a>
-                <a href="/signup" class="btn"> Signup</a>
+                <a href="/register" class="btn"> Signup</a>
             </div>
         </div>
     </div>

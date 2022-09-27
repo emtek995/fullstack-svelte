@@ -1,22 +1,27 @@
-# create-svelte
+# Calendar
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## What is it?
 
-## Creating a project
+Everything you need to organize your life.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Really? Another todo?
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+No. And yes.
+This app is part of a grand creation. It is meant to be displayed in an open area on a large screen. To organize the activities of a whole household. Co-ordinate activities, meal plan, plan date nights, the posibilites are endless.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+There is also a hardware aspect to this app. Like mentioned above it is displayed in the living area so everyone can access and see at a glance. It can also be displayed on your computer to use there. A native Android and iOS app is also planned. Every device syncronized. It is also meant to be deployed on a home server, but cloud based solutions are being looked into.
+
+## What tech are you using on this crazy thing?
+
+-   Sveltekit - for the web frontend and backend.
+-   Tailwindcss - to make it look really nice.
+-   Daisyui - to get a consistant look between components
+-   MongoDB - a nice place too keep all the info the users need
+-   Typescript - who doesn't like types?
 
 ## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Once you've cloned this repo and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
 ```bash
 npm run dev
@@ -34,5 +39,3 @@ npm run build
 ```
 
 You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
